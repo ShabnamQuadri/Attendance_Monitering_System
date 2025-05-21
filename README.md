@@ -47,7 +47,7 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 
 ### OLED SSD1306 (I2C) to Arduino UNO:
 | OLED Pin | Arduino UNO Pin |
-|----------|------------------|
+|----------|-----------------|
 | VCC      | 5V               |
 | GND      | GND              |
 | SDA      | A4               |
