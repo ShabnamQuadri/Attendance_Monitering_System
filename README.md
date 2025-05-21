@@ -4,7 +4,7 @@
 This is an **automated attendance system** developed using an Arduino UNO, an RFID reader, an OLED display, and a buzzer. It allows students to scan RFID cards to mark their attendance, displaying relevant details and providing audio feedback for status confirmation.
 
 ## 🛠️ How It Works
-- The RFID Reader (MFRC522) detects and reads the unique ID (UID) of an RFID tag/card.
+- The **RFID Reader (MFRC522)** detects and reads the unique ID (UID) of an RFID tag/card.
 - The system compares the UID against a list of registered users stored in the code.
 - If the UID is recognized:
   - The **OLED Display (SSD1306)** shows the student’s name, their ID, and the status **“Present”**.
