@@ -59,5 +59,4 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 | + (VCC)    | D8 (example)     |
 | - (GND)    | GND              |
 
-## 📄 License
-
+## 📄 Licen
