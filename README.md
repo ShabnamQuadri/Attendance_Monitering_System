@@ -60,6 +60,4 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 | - (GND)    | GND              |
 
 ## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
 
----
