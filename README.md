@@ -7,7 +7,7 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 - The **RFID Reader (MFRC522)** detects and reads the unique ID (UID) of an RFID tag/card.
 - The system compares the UID against a list of registered users stored in the code.
 - If the UID is recognized:
-  - The **OLED Display (SSD1306)** shows the student’s name, their ID, and the status **“Present”**.
+  - The **OLED Display (SSD1306)** shows the student’s name and the status **“Present”**.
   - A **short beep** sounds from the buzzer for confirmation.
 - If the UID is **not recognized**:
   - The OLED displays **"Unknown Card"** and the UID.
@@ -18,7 +18,6 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 - Real-time feedback on OLED display
 - Audio feedback via buzzer
 - Display includes:
-  - Student ID
   - Student Name
   - Status: Present / Unknown
 - Easily extendable for real-time clock integration, SD card logging, or database support
@@ -59,4 +58,5 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 | + (VCC)    | D8 (example)     |
 | - (GND)    | GND              |
 
- 
+✅ Serial output is now in CSV format → suitable for **Excel** (each data appears in separate columns: Time, Card ID,Roll no , Name, Status)
+✅ Added a helper function getCurrentTime() using millis() for runtime-based timestamping.
