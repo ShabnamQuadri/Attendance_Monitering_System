@@ -30,7 +30,7 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 | SSD1306 OLED Display   | Displays student details         |
 | 5V Buzzer              | For feedback (valid/invalid UID) |
 | RFID Tags/Cards        | Each with unique UID             |
-| Jumper Wires, Breadboard | For connections                |
+| Jumper Wires, Breadboard| For connections                |
 
 ## 🔌 Wiring Overview
 ### RFID MFRC522 to Arduino UNO:
