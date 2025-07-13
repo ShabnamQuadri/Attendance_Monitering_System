@@ -58,5 +58,5 @@ This is an **automated attendance system** developed using an Arduino UNO, an RF
 | + (VCC)    | D8 (example)     |
 | - (GND)    | GND              |
 
-✅ Serial output is now in CSV format → suitable for **Excel** (each data appears in separate columns: Time, Card ID,Roll no , Name, Status)
+✅ Serial output is now in CSV format → suitable for **Excel** (each data appears in separate columns: Time, Card ID,Roll no, Name, Status)
 ✅ Added a helper function getCurrentTime() using millis() for runtime-based timestamping.
